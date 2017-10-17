@@ -1,1 +1,36 @@
+#Program to create simple calculator
+#Addition of two numbers
+def sum(a,b):
+    ans_sum=a+b
+    return ans_sum
+#Subtraction of two numbers
+def sub(a,b):
+    ans_sub=a-b
+    return ans_sub
+#Multiplication of two numbers
+def mul(a,b):
+    ans_mul=a*b
+    return ans_mul
+#Division of two numbers
+def div(a,b):
+    ans_div=a/b
+    return ans_div
+#Modulus of two numbers
+def mod(a,b):
+    ans_mod=a%b
+    return ans_mod
+#Taking 2 numbers as input
+no1=int(input('Enter number 1:'))
+no2=int(input('Enter number 2:'))
+sum_no=sum(no1,no2)
+sub_no=sub(no1,no2)
+mul_no=mul(no1,no2)
+div_no=div(no1,no2)
+mod_no=mod(no1,no2)
+#Printing
+print("The addition of two numbers is",sum_no)
+print("The sutraction of two numbers is",sub_no)
+print("The multiplication of two numbers is",mul_no)
+print("The division of two numbers is",div_no)
+print("The modules of two numbers is",mod_no)
 
